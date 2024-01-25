@@ -73,29 +73,28 @@ export default function App() {
             </div>
           </div>
         </div>
-        <br />
-        <footer>
-          Code by{" "}
-          <a
-            href="https://diana-decastro.netlify.app/"
-            target="_blank"
-            title="Diana Portfolio"
-            rel="noreferrer"
-          >
-            Diana
-          </a>{" "}
-          and open-sourced in{" "}
-          <a
-            href="https://github.com/dianainberlin"
-            target="_blank"
-            title="Diana github"
-            rel="noreferrer"
-          >
-            Github
-          </a>
-          .
-        </footer>
       </div>
+      <footer>
+        Code by{" "}
+        <a
+          href="https://diana-decastro.netlify.app/"
+          target="_blank"
+          title="Diana Portfolio"
+          rel="noreferrer"
+        >
+          Diana
+        </a>{" "}
+        and open-sourced in{" "}
+        <a
+          href="https://github.com/dianainberlin"
+          target="_blank"
+          title="Diana github"
+          rel="noreferrer"
+        >
+          Github
+        </a>
+        .
+      </footer>
     </div>
   );
 }
