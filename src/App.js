@@ -44,7 +44,7 @@ export default function App() {
           <div class="col-md main-weather-box rounded-4 p-5">
             <ul>
               <li>
-                <h4>Berlin</h4>
+                <h4>Manila</h4>
               </li>
               <li>
                 <h1>12°</h1>
