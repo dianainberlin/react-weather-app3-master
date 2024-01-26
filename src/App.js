@@ -9,35 +9,6 @@ export default function App() {
           <a class="navbar-brand" href="/">
             Diana's Weather App
           </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon pt-1">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </span>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarTogglerDemo02"
-          >
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search city"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
-          </div>
         </div>
       </nav>
       <Weather />

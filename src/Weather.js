@@ -3,6 +3,18 @@ import "./Weather.css";
 export default function Weather() {
   return (
     <div class="container">
+      <form class="d-flex" role="search">
+        <input
+          class="form-control me-2"
+          type="search"
+          placeholder="Search city"
+          aria-label="Search"
+        />
+        <button class="btn" type="submit">
+          Search
+        </button>
+      </form>
+      <br />
       <div class="row boxes">
         <div class="col-md main-weather-box rounded-4 p-5">
           <ul>
