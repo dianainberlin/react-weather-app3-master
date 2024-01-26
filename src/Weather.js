@@ -9,6 +9,7 @@ export default function Weather() {
           type="search"
           placeholder="Search city"
           aria-label="Search"
+          autoFocus="on"
         />
         <button class="btn" type="submit">
           Search
