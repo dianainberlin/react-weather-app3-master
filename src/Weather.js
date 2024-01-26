@@ -2,6 +2,8 @@ import "./Weather.css";
 import axios from "axios";
 
 export default function Weather() {
+  const apiKey = "b1a8336ff1e05b64da5625e4158fbea3";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
   return (
     <div className="container">
       <form className="d-flex" role="search">
