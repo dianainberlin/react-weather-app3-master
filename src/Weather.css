@@ -47,6 +47,12 @@ h1 {
   font-size: 70px;
 }
 
+.unit {
+  font-size: 20px;
+  position: relative;
+  top: -32px;
+}
+
 @media (max-width: 900px) {
   form {
     margin-top: 10px;
