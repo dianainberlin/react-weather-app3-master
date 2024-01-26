@@ -17,17 +17,27 @@ export default function Weather() {
       <br />
       <div class="row boxes">
         <div class="col-md main-weather-box rounded-4 p-5">
-          <ul>
-            <li>
-              <h4>Manila</h4>
-            </li>
-            <li>
-              <h1>12°</h1>
-            </li>
-            <li>
-              <p>Partly cloudy</p>
-            </li>
-          </ul>
+          <div class="row">
+            <div class="col">
+              <ul>
+                <li>
+                  <h4>Manila</h4>
+                </li>
+                <li>
+                  <h1>12°</h1>
+                </li>
+                <li>
+                  <p>Partly cloudy</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
+                width="150"
+              />
+            </div>
+          </div>
         </div>
         <div class="col-md">
           <div class="row boxes-1">
