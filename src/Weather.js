@@ -22,7 +22,7 @@ export default function Weather() {
             <div className="col">
               <ul>
                 <li>
-                  <h4>Manila</h4>
+                  <h4>Berlin</h4>
                 </li>
                 <li>
                   <h1>
