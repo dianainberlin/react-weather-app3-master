@@ -34,6 +34,7 @@ export default function Weather() {
             <div class="col">
               <img
                 src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
+                alt="cloud"
                 width="150"
               />
             </div>
