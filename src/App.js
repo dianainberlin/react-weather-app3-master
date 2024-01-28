@@ -11,7 +11,7 @@ export default function App() {
           </a>
         </div>
       </nav>
-      <Weather />
+      <Weather defaultCity="Berlin" />
       <footer>
         Code by{" "}
         <a
