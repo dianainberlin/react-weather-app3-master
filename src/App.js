@@ -24,7 +24,7 @@ export default function App() {
         </a>{" "}
         and opensourced in{" "}
         <a
-          href="https://github.com/dianainberlin"
+          href="https://github.com/dianainberlin/react-weather-app3"
           target="_blank"
           title="Diana github"
           rel="noreferrer"
