@@ -69,3 +69,8 @@ canvas {
   width: 90px;
   margin: 30px;
 }
+
+.celsius,
+.fahrenheit {
+  color: white;
+}

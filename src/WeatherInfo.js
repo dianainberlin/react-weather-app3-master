@@ -3,6 +3,7 @@ import FormattedDate from "./FormattedDate";
 import Sunrise from "./Sunrise";
 import Sunset from "./Sunset";
 import WeatherIcon from "./WeatherIcon";
+import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInfo(props) {
   console.log(props.data.iconUrl);
@@ -18,8 +19,7 @@ export default function WeatherInfo(props) {
                 </li>
                 <li>
                   <h1>
-                    {props.data.temperature}
-                    <span className="unit">°C</span>
+                    <WeatherTemperature celcius={props.data.temperature} />
                   </h1>
                 </li>
                 <li>
@@ -50,10 +50,22 @@ export default function WeatherInfo(props) {
                   <FormattedDate date={props.data.date} />
                 </li>
                 <li>
-                  Sunrise: <Sunrise time={props.data.sunrise} />
-                </li>
-                <li>
-                  Sunset: <Sunset time={props.data.sunset} />
+                  <img
+                    src="https://help.apple.com/assets/656912ADA28BF1B7E90BF0F6/656912B3021EA3AD750FB887/en_US/78606be71a30b2e518815e252a93cbb1.png"
+                    alt="Sunrise"
+                    width="20"
+                  />
+                  {"  "}
+                  <Sunrise time={props.data.sunrise} />
+                  <li>
+                    <img
+                      src="https://help.apple.com/assets/656912ADA28BF1B7E90BF0F6/656912B3021EA3AD750FB887/en_US/791abf4ca2e11cf399b0d98c5e28598a.png"
+                      alt="Sunset"
+                      width="20"
+                    />
+                    {"  "}
+                    <Sunset time={props.data.sunset} />
+                  </li>
                 </li>
               </ul>
             </div>
