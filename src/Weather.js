@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import FormattedDate from "./FormattedDate";
+import Sunrise from "./Sunrise";
+import Sunset from "./Sunset";
 import "./Weather.css";
 import axios from "axios";
 
@@ -15,9 +18,9 @@ export default function Weather(props) {
       feels: Math.round(response.data.main.feels_like),
       wind: Math.round(response.data.wind.speed),
       humidity: Math.round(response.data.main.humidity),
-      time: "10:34",
-      date: "28 January",
-      day: "Sunday",
+      date: new Date(response.data.dt * 1000),
+      sunrise: new Date(response.data.sys.sunrise * 1000),
+      sunset: new Date(response.data.sys.sunset * 1000),
     });
   }
 
@@ -79,9 +82,14 @@ export default function Weather(props) {
             <div className="row">
               <div className="col date-box gy-2 rounded-4 p-5">
                 <ul>
-                  <li>{weatherData.time}pm</li>
                   <li>
-                    {weatherData.date}, {weatherData.day}
+                    <FormattedDate date={weatherData.date} />
+                  </li>
+                  <li>
+                    Sunrise: <Sunrise time={weatherData.sunrise} />
+                  </li>
+                  <li>
+                    Sunset: <Sunset time={weatherData.sunset} />
                   </li>
                 </ul>
               </div>
