@@ -2,6 +2,7 @@ import React from "react";
 import FormattedDate from "./FormattedDate";
 import Sunrise from "./Sunrise";
 import Sunset from "./Sunset";
+import WeatherIcon from "./WeatherIcon";
 
 export default function WeatherInfo(props) {
   console.log(props.data.iconUrl);
@@ -27,11 +28,7 @@ export default function WeatherInfo(props) {
               </ul>
             </div>
             <div className="col">
-              <img
-                src={props.data.iconURL}
-                alt={props.data.description}
-                width="150"
-              />
+              <WeatherIcon code={props.data.icon} width="150" />
             </div>
           </div>
         </div>

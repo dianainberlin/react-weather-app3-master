@@ -64,3 +64,8 @@ h1 {
     padding-right: 20px;
   }
 }
+
+canvas {
+  width: 90px;
+  margin: 30px;
+}

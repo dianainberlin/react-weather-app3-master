@@ -13,7 +13,7 @@ export default function Weather(props) {
       city: response.data.name,
       temperature: Math.round(response.data.main.temp),
       description: response.data.weather[0].description,
-      iconUrl: `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
+      icon: response.data.weather[0].icon,
       feels: Math.round(response.data.main.feels_like),
       wind: Math.round(response.data.wind.speed),
       humidity: Math.round(response.data.main.humidity),
