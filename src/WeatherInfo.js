@@ -4,6 +4,7 @@ import Sunrise from "./Sunrise";
 import Sunset from "./Sunset";
 
 export default function WeatherInfo(props) {
+  console.log(props.data.iconUrl);
   return (
     <div className="WeatherInfo">
       <div className="row boxes">
@@ -27,7 +28,7 @@ export default function WeatherInfo(props) {
             </div>
             <div className="col">
               <img
-                src={props.data.iconUrl}
+                src={props.data.iconURL}
                 alt={props.data.description}
                 width="150"
               />
