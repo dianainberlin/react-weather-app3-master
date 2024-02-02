@@ -13,7 +13,7 @@ export default function App() {
       </nav>
       <Weather defaultCity="Berlin" />
       <footer>
-        Code by{" "}
+        Coded by
         <a
           href="https://diana-decastro.netlify.app/"
           target="_blank"
@@ -22,16 +22,15 @@ export default function App() {
         >
           Diana
         </a>{" "}
-        and open-sourced in{" "}
+        and opensourced in{" "}
         <a
           href="https://github.com/dianainberlin"
           target="_blank"
           title="Diana github"
           rel="noreferrer"
         >
-          Github
+          <i class="fa-brands fa-github"></i>
         </a>
-        .
       </footer>
     </div>
   );
