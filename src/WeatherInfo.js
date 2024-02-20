@@ -4,6 +4,7 @@ import Sunrise from "./Sunrise";
 import Sunset from "./Sunset";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
+import WeatherForecast from "./WeatherForecast";
 
 export default function WeatherInfo(props) {
   console.log(props.data.iconUrl);
@@ -72,8 +73,8 @@ export default function WeatherInfo(props) {
           </div>
         </div>
       </div>
-      <div className="row weather-forecast-box rounded-4 p-5 mt-2">
-        Welcome!
+      <div className="row weather-forecast-box rounded-4 p-5 mt-2 mb-2">
+        <WeatherForecast />
       </div>
     </div>
   );
