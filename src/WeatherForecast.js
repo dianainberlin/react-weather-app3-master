@@ -1,5 +1,6 @@
 import React from "react";
 import WeatherIcon from "./WeatherIcon";
+import "./WeatherForecast.css";
 
 export default function WeatherForecast() {
   return (
@@ -9,11 +10,11 @@ export default function WeatherForecast() {
           <ul>
             <li className="WeatherForecast-day">Day</li>
             <li className="WeatherForecast-icon">
-              <WeatherIcon code="01d" width="40" />
+              <WeatherIcon code="01d" size="100px" />
             </li>
             <li className="WeatherForecast-temperatures">
-              <span className="WeatherForeCast-temperature-min">7°</span>
               <span className="WeatherForecast-temperature-max">10°</span>
+              <span className="WeatherForecast-temperature-min">7°</span>
             </li>
           </ul>
         </div>
@@ -21,11 +22,11 @@ export default function WeatherForecast() {
           <ul>
             <li className="WeatherForecast-day">Day</li>
             <li className="WeatherForecast-icon">
-              <WeatherIcon code="01d" width="40" />
+              <WeatherIcon code="01d" size="100px" />
             </li>
             <li className="WeatherForecast-temperatures">
-              <span className="WeatherForeCast-temperature-min">7°</span>
               <span className="WeatherForecast-temperature-max">10°</span>
+              <span className="WeatherForecast-temperature-min">7°</span>
             </li>
           </ul>
         </div>
@@ -33,11 +34,11 @@ export default function WeatherForecast() {
           <ul>
             <li className="WeatherForecast-day">Day</li>
             <li className="WeatherForecast-icon">
-              <WeatherIcon code="01d" width="40" />
+              <WeatherIcon code="01d" size="100px" />
             </li>
             <li className="WeatherForecast-temperatures">
-              <span className="WeatherForeCast-temperature-min">7°</span>
               <span className="WeatherForecast-temperature-max">10°</span>
+              <span className="WeatherForecast-temperature-min">7°</span>
             </li>
           </ul>
         </div>
@@ -45,11 +46,11 @@ export default function WeatherForecast() {
           <ul>
             <li className="WeatherForecast-day">Day</li>
             <li className="WeatherForecast-icon">
-              <WeatherIcon code="01d" width="40" />
+              <WeatherIcon code="01d" size="100px" />
             </li>
             <li className="WeatherForecast-temperatures">
-              <span className="WeatherForeCast-temperature-min">7°</span>
               <span className="WeatherForecast-temperature-max">10°</span>
+              <span className="WeatherForecast-temperature-min">7°</span>
             </li>
           </ul>
         </div>
@@ -57,11 +58,11 @@ export default function WeatherForecast() {
           <ul>
             <li className="WeatherForecast-day">Day</li>
             <li className="WeatherForecast-icon">
-              <WeatherIcon code="01d" width="40" />
+              <WeatherIcon code="01d" size="100px" />
             </li>
             <li className="WeatherForecast-temperatures">
-              <span className="WeatherForeCast-temperature-min">7°</span>
               <span className="WeatherForecast-temperature-max">10°</span>
+              <span className="WeatherForecast-temperature-min">7°</span>
             </li>
           </ul>
         </div>
@@ -69,11 +70,11 @@ export default function WeatherForecast() {
           <ul>
             <li className="WeatherForecast-day">Day</li>
             <li className="WeatherForecast-icon">
-              <WeatherIcon code="01d" width="40" />
+              <WeatherIcon code="01d" size="100px" />
             </li>
             <li className="WeatherForecast-temperatures">
-              <span className="WeatherForeCast-temperature-min">7°</span>
               <span className="WeatherForecast-temperature-max">10°</span>
+              <span className="WeatherForecast-temperature-min">7°</span>
             </li>
           </ul>
         </div>
@@ -81,11 +82,11 @@ export default function WeatherForecast() {
           <ul>
             <li className="WeatherForecast-day">Day</li>
             <li className="WeatherForecast-icon">
-              <WeatherIcon code="01d" width="40" />
+              <WeatherIcon code="01d" size="100px" />
             </li>
             <li className="WeatherForecast-temperatures">
-              <span className="WeatherForeCast-temperature-min">7°</span>
               <span className="WeatherForecast-temperature-max">10°</span>
+              <span className="WeatherForecast-temperature-min">7°</span>
             </li>
           </ul>
         </div>
