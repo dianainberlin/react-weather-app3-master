@@ -72,6 +72,9 @@ export default function WeatherInfo(props) {
           </div>
         </div>
       </div>
+      <div className="row weather-forecast-box rounded-4 p-5 mt-2">
+        Welcome!
+      </div>
     </div>
   );
 }

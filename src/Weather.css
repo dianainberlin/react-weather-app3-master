@@ -15,7 +15,8 @@
 .form-control,
 .main-weather-box,
 .humidity-box,
-.date-box {
+.date-box,
+.weather-forecast-box {
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.28) 0%,
