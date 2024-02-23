@@ -74,7 +74,7 @@ export default function WeatherInfo(props) {
         </div>
       </div>
       <div className="row weather-forecast-box rounded-4 p-5 mt-2 mb-2">
-        <WeatherForecast />
+        <WeatherForecast query={props.data.city} />
       </div>
     </div>
   );
